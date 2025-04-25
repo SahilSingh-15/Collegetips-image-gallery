@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CollegeTips Photo Gallery</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="hero">
+    <img src="assets/hero.jpg" alt="CollegeTips Hero" class="hero-img">
+    <div class="hero-text">
+      <h1>Welcome to CollegeTips Moments ✨</h1>
+      <p>Scroll through the best moments, team vibes, and behind-the-scenes fun!</p>
+    </div>
+  </header>
+
+  <section class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="team">Team Vibes 🤝</button>
+    <button class="filter-btn" data-filter="campaigns">Creative Campaigns 🎨</button>
+    <button class="filter-btn" data-filter="fun">Work Hard, Play Hard 🥳</button>
+    <button class="filter-btn" data-filter="bts">Behind-The-Scenes 🎥</button>
+  </section>
+
+  <main class="gallery-wrapper">
+    <!-- Section Template -->
+    <div class="gallery-section team" data-category="team">
+      <h2>Team Vibes 🤝</h2>
+      <div class="carousel-container">
+        <button class="nav-btn prev-btn">&#8249;</button>
+        <div class="carousel-track">
+          <img src="assets/team-vibes/t-v-1.jpg" class="carousel-img" />
+          <img src="assets/team-vibes/t-v-2.jpg" class="carousel-img" />
+          <img src="assets/team-vibes/t-v-3.jpg" class="carousel-img" />
+          <img src="assets/team-vibes/t-v-4.jpg" class="carousel-img" />
+        </div>
+        <button class="nav-btn next-btn">&#8250;</button>
+      </div>
+    </div>
+
+    <div class="gallery-section campaigns" data-category="campaigns">
+      <h2>Creative Campaigns 🎨</h2>
+      <div class="carousel-container">
+        <button class="nav-btn prev-btn">&#8249;</button>
+        <div class="carousel-track">
+          <img src="assets/Creative-Campaigns/C-C-1.jpg" class="carousel-img" />
+          <img src="assets/Creative-Campaigns/C-C-2.jpg" class="carousel-img" />
+          <img src="assets/Creative-Campaigns/C-C-3.jpg" class="carousel-img" />
+          <img src="assets/Creative-Campaigns/C-C-4.jpg" class="carousel-img" />
+        </div>
+        <button class="nav-btn next-btn">&#8250;</button>
+      </div>
+    </div>
+
+    <div class="gallery-section fun" data-category="fun">
+      <h2>Work Hard, Play Hard 🥳</h2>
+      <div class="carousel-container">
+        <button class="nav-btn prev-btn">&#8249;</button>
+        <div class="carousel-track">
+          <img src="assets/Work Hard, Play Hard/whph-1.jpg" class="carousel-img" />
+          <img src="assets/Work Hard, Play Hard/whph-2.jpg" class="carousel-img" />
+          <img src="assets/Work Hard, Play Hard/whph-3.jpg" class="carousel-img" />
+          <img src="assets/Work Hard, Play Hard/whph-4.jpg" class="carousel-img" />
+        </div>
+        <button class="nav-btn next-btn">&#8250;</button>
+      </div>
+    </div>
+
+    <div class="gallery-section bts" data-category="bts">
+      <h2>Behind-The-Scenes 🎥</h2>
+      <div class="carousel-container">
+        <button class="nav-btn prev-btn">&#8249;</button>
+        <div class="carousel-track">
+          <img src="assets/bts/bts-1.jpg" class="carousel-img" />
+          <img src="assets/bts/bts-2.jpg" class="carousel-img" />
+          <img src="assets/bts/bts-3.jpg" class="carousel-img" />
+          <img src="assets/bts/bts-4.jpg" class="carousel-img" />
+        </div>
+        <button class="nav-btn next-btn">&#8250;</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Sahil for CollegeTips</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
